@@ -1,8 +1,15 @@
-from selenium import webdriver
-
-driver=webdriver.Chrome()
-driver.get("https://www.facebook.com/")
-driver.find_element_by_name("firstname").send_keys("Alia")
-driver.find_element_by_name("lastname").send_keys("Bhatt")
-driver.find_element_by_name("reg_email__").send_keys("9977422456")
-driver.find_element_by_name("reg_passwd__").send_keys("abcdefg")
+# from selenium import webdriver
+#
+# driver=webdriver.Chrome()
+# driver.get("https://www.facebook.com/")
+# driver.maximize_window()
+# driver.find_element_by_name("firstname").send_keys("Alia")
+# driver.find_element_by_name("lastname").send_keys("Bhatt")
+# driver.find_element_by_name("reg_email__").send_keys("9977422456")
+# driver.find_element_by_name("reg_passwd__").send_keys("abcdefg")
+# driver.find_element_by_id("day").send_keys("24")
+# # driver.find_element_by_xpath("//select[@id='day']").send_keys("24")
+# driver.find_element_by_xpath("//select[@id='month']").send_keys("JUN")
+# driver.find_element_by_xpath("//select[@id='year']").send_keys("2009")
+# #driver.find_element_by_xpath("//input[@id='u_0_9']").is_enabled()
+# print("program executed")

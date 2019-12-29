@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.1 (Python 3.7.2 on win32)" generated="20190220 08:16:28.629" rpa="false">
+<suite id="s1" name="Login" source="D:\PythonSelenium\login.robot">
+<test id="s1-t1" name="Login to Facebook">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.facebook.com/</arg>
+<arg>Chrome</arg>
+</arguments>
+<msg timestamp="20190220 08:16:28.946" level="INFO">Opening browser 'Chrome' to base url 'https://www.facebook.com/'.</msg>
+<status status="PASS" starttime="20190220 08:16:28.945" endtime="20190220 08:16:35.443"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=firstname</arg>
+<arg>ruhi</arg>
+</arguments>
+<msg timestamp="20190220 08:16:35.449" level="INFO">Typing text 'ruhi' into text field 'name=firstname'.</msg>
+<status status="PASS" starttime="20190220 08:16:35.448" endtime="20190220 08:16:35.656"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=lastname</arg>
+<arg>shri</arg>
+</arguments>
+<msg timestamp="20190220 08:16:35.656" level="INFO">Typing text 'shri' into text field 'name=lastname'.</msg>
+<status status="PASS" starttime="20190220 08:16:35.656" endtime="20190220 08:16:35.789"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=reg_email__</arg>
+<arg>ruhishrivastava27@gmail.com</arg>
+</arguments>
+<msg timestamp="20190220 08:16:35.790" level="INFO">Typing text 'ruhishrivastava27@gmail.com' into text field 'name=reg_email__'.</msg>
+<status status="PASS" starttime="20190220 08:16:35.789" endtime="20190220 08:16:36.123"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>name=reg_passwd__</arg>
+<arg>abcdefgh</arg>
+</arguments>
+<msg timestamp="20190220 08:16:36.124" level="INFO">Typing text 'abcdefgh' into text field 'name=reg_passwd__'.</msg>
+<status status="PASS" starttime="20190220 08:16:36.124" endtime="20190220 08:16:36.266"></status>
+</kw>
+<kw name="Select options">
+<arguments>
+<arg>id=day</arg>
+<arg>28</arg>
+</arguments>
+<msg timestamp="20190220 08:16:36.273" level="FAIL">No keyword with name 'Select options' found.</msg>
+<status status="FAIL" starttime="20190220 08:16:36.273" endtime="20190220 08:16:36.273"></status>
+</kw>
+<status status="FAIL" starttime="20190220 08:16:28.944" endtime="20190220 08:16:36.273" critical="yes">No keyword with name 'Select options' found.</status>
+</test>
+<status status="FAIL" starttime="20190220 08:16:28.646" endtime="20190220 08:16:36.277"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
